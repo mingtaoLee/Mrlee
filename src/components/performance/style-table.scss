@@ -1,0 +1,64 @@
+.table__original {
+  width: 100%;
+  border: 1px solid #DFE6EC;
+  position: relative;
+
+  th {
+    background: #EEF1F6;
+    border-color: #DFE6EC;
+  }
+
+  td {
+    box-sizing: border-box;
+    height: 70px;
+    text-align: center;
+    border-color: #DFE6EC;
+    background: #fff;
+    padding: 10px;
+
+    .editable {
+      cursor: pointer;
+      word-break: break-all;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .fix-bar {
+    background: #EEF1F6;
+  }
+}
+
+.width__50 {
+  width: 50px;
+}
+
+.width__100 {
+  width: 100px;
+}
+
+.width__150 {
+  width: 150px;
+}
+
+.width__200 {
+  width: 200px;
+}
+
+.width__250 {
+  width: 250px;
+}
+
+.width__300 {
+  width: 300px;
+}
+
+.width__350 {
+  width: 350px;
+}
+
+.width__400 {
+  width: 400px;
+}

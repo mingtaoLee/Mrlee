@@ -1,0 +1,19 @@
+
+/** mixin-混合样式 **/
+
+// 引入主题变量
+@import './vars.scss';
+
+// 多行文本溢出
+@mixin multi-text-overflow ($line: 1) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+  -webkit-line-clamp: $line;
+  line-height: 1;
+}
+
+
+
