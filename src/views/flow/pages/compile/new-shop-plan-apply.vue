@@ -5,6 +5,7 @@
         <demand-desc :model="planModel" :ifDesc="false" :action="action" :limitTime="limitTime"></demand-desc>
         <div class="content-follow">
           <h2 class="info-title">编制情况</h2>
+          <h2 class="info-title">编制情况</h2>
           <div class="info-content">
             <div class="mt10 mb20">
               <people-effect-table :orgUnitId="planModel.planData[0].orgUnitId"
