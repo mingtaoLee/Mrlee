@@ -53,7 +53,7 @@
         </el-menu>
       </aside>
       <main>
-        
+        <router-view/>
       </main>
     </section>
   </div>
@@ -80,7 +80,17 @@ export default {
 .el-menu-demo{
   background:-webkit-linear-gradient(0deg, #8a92f5, #09fff4)
 }
-aside{
-  width: 300px;
+aside .el-menu-vertical-demo{
+  height: calc(100vh);
+  width:250px;
+}
+section{
+  margin-top: 4px;
+  display: flex;
+}
+main{
+  height: auto;
+  width: 100%;
+  border: 1px solid red
 }
 </style>
