@@ -61,7 +61,7 @@
 
 <script>
 export default {
-  name: 'home',
+  name: 'index',
   data(){
     return {
       menuList:['处理中心','工作台','消息中心','订单管理'],
@@ -69,9 +69,11 @@ export default {
     }
   },
   methods:{
+    handleClose(){},
     handleSelect (val) {
       console.log(val)
-    }
+    },
+    handleOpen(){}
   }
 }
 </script>
